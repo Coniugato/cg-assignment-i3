@@ -1,6 +1,7 @@
 # cg-assignment-i3
 ファイルの説明:  
-`texture.py`:テクスチャ合成を行うpythonコードです。大域的に探索ステップ、混合ステップを繰り返すことでテクスチャ合成を行います(局所的なものは実装したもののうまく合成できなかったためこちらのみ提出します)。以下のオプションでステップ数やパッチの大きさ、Random Searchの確率($1$ならば通常の合成)を変えることができます。
+`texture.py`:テクスチャ合成を行うpythonコードです。大域的に探索ステップ、混合ステップを繰り返すことでテクスチャ合成を行います(局所的なものは実装したもののうまく合成できなかったためこちらのみ提出します)。以下のオプションでステップ数やパッチの大きさ、Random Searchの確率($1$ならば通常の合成)を変えることができます。  
+最も基本的には`python(3) texture.py sample.jpg target.jpg`のようにして実行できます。
 ```bash
 [computer graphics assignment i3] generate the texture from the sample source image
 
