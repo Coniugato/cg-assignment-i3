@@ -24,7 +24,7 @@ options:
 ```
 またソースコード中の`probability2`の値を変えると、探索を行う`source image`の中のパッチを一定の割合に制限することができます。  
 `target.jpg`は実際に`sample.jpg`をもとに合成したものになります。確かに同様のパターンが合成できていることがわかります。  
-sample.jpg  
+`sample.jpg`  
 ![source image](sample.jpg "source image")    
-target.jpg  
+`target.jpg`  
 ![target image](target.jpg "target image")　  
